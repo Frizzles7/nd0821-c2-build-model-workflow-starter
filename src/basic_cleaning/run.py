@@ -94,18 +94,18 @@ if __name__ == "__main__":
         help="Maximum price to consider",
         required=True
     )
-    
+
     parser.add_argument(
         "--min_nights", 
         type=float,
-        help="Minimum number of minimum_nights to consider",
+        help="Minimum minimum_nights to consider",
         required=True
     )
     
     parser.add_argument(
         "--max_nights", 
         type=float,
-        help="Maximum number of minimum_nights to consider",
+        help="Maximum minimum_nights to consider",
         required=True
     )
 
