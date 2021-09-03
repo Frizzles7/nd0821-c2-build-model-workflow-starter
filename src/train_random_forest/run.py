@@ -90,9 +90,7 @@ def go(args):
 
     mlflow.sklearn.save_model(
         sk_pipe,
-        "random_forest_dir",
-        signature=infer_signature(X_val, y_val),
-        input_example=X_val.iloc[:5]
+        "random_forest_dir"
     )
 
     artifact = wandb.Artifact(
