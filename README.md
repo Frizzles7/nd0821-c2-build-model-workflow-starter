@@ -49,6 +49,9 @@ Individual steps can be run using the `steps` parameter on the command line, whe
 Runs and artifacts can be viewed in Weights & Biases here:
 [wandb.ai/frizzles7/nyc_airbnb/overview?workspace=user-frizzles7](wandb.ai/frizzles7/nyc_airbnb/overview?workspace=user-frizzles7)
 
+A screenshot of the Graph View of the pipeline from Weights & Biases is here:
+[Graph View](https://github.com/Frizzles7/nd0821-c2-build-model-workflow-starter/blob/master/images/wandb_graphview.PNG)
+
 ## License
 
 [License](LICENSE.txt)
